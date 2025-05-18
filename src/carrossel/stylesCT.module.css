@@ -1,0 +1,74 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #e1e1e1;
+  color: #1e1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containet {
+  max-width: 75vw;
+}
+.carosel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.carosel::-webkit-scrollbar {
+  display: none;
+}
+
+.item {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  width: 270px;
+  border-radius: 10px;
+  flex: none;
+}
+.images {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.info {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info span {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  color: #1e1e1e;
+  border-radius: 10px;
+}
+.nome {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: aqua;
+}
+.oldPrice {
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  flex-grow: 1;
+  color: red;
+}
+.prico {
+  margin: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: orange;
+}
+.butt {
+  width: 100%;
+  text-align: center;
+}
+.butt button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
