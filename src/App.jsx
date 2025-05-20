@@ -6,7 +6,6 @@ function App() {
     <>
       <div>
         <Carrossel />
-        <h1>OLa mundo!!</h1>
       </div>
     </>
   );

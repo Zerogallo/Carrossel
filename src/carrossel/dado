@@ -1,0 +1,57 @@
+const [itens, setitens] = useState([]);
+const carosel = useRef(null);
+useEffect(() => {
+  const carregarDado = async () => {
+    try {
+      const resposta = await fetch("/public/static/shoes.json");
+      const dados = await resposta.json();
+      setitens(dados);
+    } catch (erro) {
+      console.error("Erro ao carregar dados:", erro);
+    }
+  };
+  carregarDado();
+}, []);
+const leftclick = (e) => {
+  e.preventDefault();
+  carosel.current.scrolleft -= carosel.current.offsewidth;
+};
+const rightclick = (e) => {
+  e.preventDefault();
+  carosel.current.scrolleft += carosel.current.offsewidth;
+};
+if (!itens || !itens.length) return null;
+
+<div className="containet">
+  <div className="logo">
+    <img
+      src="https://imgcentauro-a.akamaihd.net/230x230/94313762.jpg"
+      alt="supr"
+    />
+  </div>
+  <div className="carosel" ref="{carosel}">
+    {itens.map((item) => {
+      const { id, name, price, oldPrice, image } = item;
+      return (
+        <div className="item" key="{id}">
+          <div className="images">
+            <img src="{image}" alt="{name}" />
+          </div>
+          <div className="info">
+            <span className="nome">{name}</span>
+            <span className="oldPrice">$${oldPrice}</span>
+            <span className="prico">$${price}</span>
+          </div>
+        </div>
+      );
+    })}
+  </div>
+  <div className="butt">
+    <button onClick="{leftclick}">
+      <FaArrowLeft />
+    </button>
+    <button onClick="{rightclick}">
+      <FaArrowRight />
+    </button>
+  </div>
+</div>;
