@@ -2,7 +2,15 @@
 
 # SUPER SHOES - Carrossel Interativo
 
+![Carrossel Interativo](https://img.shields.io/badge/React-Carrossel-blue)
+![Licença MIT](https://img.shields.io/badge/license-MIT-green)
+
+<div align="center">
+  <img src="static/images/super-shoes.png" alt="Demonstração do Carrossel" width="70%"/>
+</div>
 ## 🚀 Sobre o Projeto
+
+
 
 *SUPER SHOES* é um carrossel interativo desenvolvido em React que exibe uma coleção de tênis esportivos. Este projeto demonstra técnicas modernas de desenvolvimento front-end utilizando React Hooks para criar uma experiência de usuário fluida e responsiva.
 
@@ -23,21 +31,6 @@
 - *CSS Moderno* - Estilização com flexbox e animações CSS
 
 
-#  <img src="https://skillicons.dev/icons?i=vscode" /> Visual Studio Code 
-
-
-# SUPER SHOES {👟}
-
-![Carrossel Interativo](https://img.shields.io/badge/React-Carrossel-blue)
-![Licença MIT](https://img.shields.io/badge/license-MIT-green)
-
-<div align="center">
-  <img src="static/images/super-shoes.png" alt="Demonstração do Carrossel" width="70%"/>
-</div>
-
-## 🎯 Visão Geral
-
-*SUPER SHOES* é um carrossel de produtos moderno desenvolvido com React, perfeito para exibir coleções de tênis esportivos. O projeto utiliza React Hooks para criar transições suaves e uma experiência de usuário premium.
 
 ## ✨ Destaques Técnicos
 
