@@ -32,7 +32,7 @@
 ![Licença MIT](https://img.shields.io/badge/license-MIT-green)
 
 <div align="center">
-  <img src="https://placehold.co/600x400?text=Super+Shoes+Demo" alt="Demonstração do Carrossel" width="70%"/>
+  <img src="static/images/super-shoes.png" alt="Demonstração do Carrossel" width="70%"/>
 </div>
 
 ## 🎯 Visão Geral
