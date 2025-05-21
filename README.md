@@ -25,13 +25,34 @@
 
 #  <img src="https://skillicons.dev/icons?i=vscode" /> Visual Studio Code 
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=vite,react,git,css,html,js,nodejs,npm" />
-  </a>
-</p>
+
+# SUPER SHOES {👟}
+
+![Carrossel Interativo](https://img.shields.io/badge/React-Carrossel-blue)
+![Licença MIT](https://img.shields.io/badge/license-MIT-green)
+
+<div align="center">
+  <img src="https://placehold.co/600x400?text=Super+Shoes+Demo" alt="Demonstração do Carrossel" width="70%"/>
+</div>
+
+## 🎯 Visão Geral
+
+*SUPER SHOES* é um carrossel de produtos moderno desenvolvido com React, perfeito para exibir coleções de tênis esportivos. O projeto utiliza React Hooks para criar transições suaves e uma experiência de usuário premium.
+
+## ✨ Destaques Técnicos
+
+- *Tecnologias*: 
+  - ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)
+  - ![Hooks](https://img.shields.io/badge/-React%20Hooks-764ABC)
+  
+- *Features*:
+  - Navegação por botões ou gestos
+  - Auto-rotação configurável
+  - Efeitos de transição CSS3
+  - 100% responsivo
 
 
-#    <img src="https://skillicons.dev/icons?i=github" /> Zerogallo / projetoLogin
+
+
 
 <p align="center"> https://zerogallo.github.io/carrossel/ </p>
